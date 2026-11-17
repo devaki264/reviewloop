@@ -2,6 +2,24 @@
 
 A **runnable**, synthetic-data proof of concept for an AI quality-assurance assistant for human expert reviews. ReviewLoop evaluates the expert's written feedback against a versioned rubric; it does not grade the artwork. The seeded deck shows **Design Assessment** (the fictional expert's opinion) separately from **Expert Review QA** (ReviewLoop's verdict on the written critique).
 
+## SundAI presentation and live demo
+
+[Open the live app](https://reviewloop-demo-264.streamlit.app/)
+
+The finalized 11-slide pitch uses authentic application screenshots, conversational speaker notes, and live QA findings from **17 November 2026**.
+
+| Resource | Download |
+|---|---|
+| Editable PowerPoint with speaker notes | [Presentation](docs/presentation/ReviewLoop_SundAI_Final_Refined.pptx) |
+| PDF presentation backup | [PDF](docs/presentation/ReviewLoop_SundAI_Final.pdf) |
+| Authentic application screenshots | [Screenshots ZIP](docs/presentation/ReviewLoop_Real_Screenshots.zip) |
+| Slide-by-slide speaking script | [Speaking script](docs/presentation/ReviewLoop_Speaking_Script.md) |
+| Verified behavior, limitations, and test footprint | [QA findings](docs/presentation/ReviewLoop_QA_Findings.md) |
+
+**What the live demo demonstrated:** Aster's generic feedback was flagged, Kite's actionable critique was accepted, rubric v2 added a rating-justification check, and a human override was saved after that heuristic falsely accepted a weak explanation.
+
+**What it did not demonstrate:** stored corrections teaching the expert-review QA auditor or a complete recursive self-improvement loop. Two manual cycles on the separate synthetic design-description experiment both recorded 20% baseline and adapted exact-match accuracy, with no promotions. Persistent worker operation and storage durability remain unverified.
+
 ## Quick start
 
 ```bash
