@@ -1,4 +1,4 @@
-# ReviewLoop — SundAI hackathon MVP at MIT - Massachusetts Institute of Technology
+# ReviewLoop — SundAI hackathon MVP at MIT (Massachusetts Institute of Technology), November 15, 2026
 
 A **runnable**, synthetic-data proof of concept for an AI quality-assurance assistant for human expert reviews. ReviewLoop evaluates the expert's written feedback against a versioned rubric; it does not grade the artwork. The seeded deck shows **Design Assessment** (the fictional expert's opinion) separately from **Expert Review QA** (ReviewLoop's verdict on the written critique).
 
