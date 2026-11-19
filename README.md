@@ -1,5 +1,7 @@
 # ReviewLoop
 
+I built ReviewLoop on November 15, 2026, at MIT as part of a SundAI hackathon. The idea came from my experience as an expert on Mercor and Handshake AI, two AI training platforms. On some projects I worked on, every expert submission had to wait for a manual review before it could go to the client, typically a frontier AI lab. When submissions piled up, even routine decisions could hold up delivery. I wanted to see whether a system could learn from the decisions reviewers were already making and help them work through that backlog faster.
+
 ## The problem
 
 When an AI team asks domain experts to evaluate work, each expert’s write-up becomes another piece of work someone has to review. An expert might submit a rating and an explanation. Before the team can use that submission, a reviewer has to read it, check it against the project’s criteria, and decide whether to accept it or ask the expert for a revision.
@@ -42,8 +44,6 @@ streamlit run app.py
 Open the local address printed by Streamlit. Review history is stored in `reviewloop.db`. To run the separate design-description experiment, use **Run cycles** in the app or start `python worker.py --interval 60` in a second terminal.
 
 ## Hackathon materials
-
-Built for the November 15, 2026 SundAI hackathon at MIT.
 
 | Resource | Download |
 |---|---|
